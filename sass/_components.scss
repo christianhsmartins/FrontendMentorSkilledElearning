@@ -20,6 +20,7 @@
 
     p {
         width: 100%;
+
         &.medium {
             margin-top: 2.4rem;
         }
@@ -38,6 +39,41 @@
         h3 {
             color: $white;
         }
+
         background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
+
+    @include responsive(375px) {
+        width: 100%;
+        height: 100%;
+        max-width: 34.3rem;
+        max-height: 28.3rem;
+        padding: 5.6rem 2.8rem 3.2rem;
+
+        h1 {
+            font-weight: 800;
+            font-size: 2.0rem;
+            line-height: 2.5rem;
+        }
+
+        p {
+            width: 100%;
+
+            &.medium {
+                margin-top: 2.4rem;
+                font-weight: 500;
+                font-size: 1.6rem;
+                line-height: 2.6rem;
+            }
+        }
+
+        a {
+            display: block;
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+            color: $primary-dark;
+            margin-top: 2.4rem;
+        }
     }
 }
