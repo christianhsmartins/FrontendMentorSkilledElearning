@@ -28,13 +28,13 @@ O usuário deve ter a possibilidade de:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Preview](./img/preview.jpg)
 
 ### Links
 
-- Compare este layout: [Add solution URL here](https://your-solution-url.com);
-- Confira a versão live deste projeto (Enquanto disponível): [Vercel](https://your-live-site-url.com);
-- Conecte-se comigo no [Linkedin](https://www.linkedin.com/in/christianhsmartins/)
+- Compare o que foi desenvolvido com o layout base no [Frontend Mentor](https://your-solution-url.com);
+- Verifique no [Vercel](https://your-live-site-url.com) a versão live deste arquivo;
+- Encontre-me no [Linkedin](https://www.linkedin.com/in/christianhsmartins/) e conecte-se;
 
 ## Meu processo
 
@@ -55,7 +55,7 @@ Próximas etapas
 
 ### Recursos úteis
 
-- [Example resource 1](https://www.example.com) - Este conteúdo me ajudou para relembrar e compreender melhor como funciona o display grid.
+- [W3Schools](https://www.example.com) - Este conteúdo me ajudou para relembrar e compreender melhor como funciona o display grid.
 
 ## Autor
 
