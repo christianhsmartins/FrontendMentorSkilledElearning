@@ -7,27 +7,24 @@ Esta foi a solução que eu constui para o [Skilled e-learning landing page chal
 ## Sumário
 
 - [Overview](#overview)
-  - [O desagio](#o-desafio)
+  - [O desafio](#o-desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Meu processo](#meu-processo)
-  - [Construído com](#construído-com)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+  - [Tecnologias](#tecnologias)
+  - [O que eu aprendi](#o-que-eu-aprendi)
+  - [Próximas etapas](#próximas-etapas)
+  - [Recursos úteis](#recursos-úteis)
+- [Autor](#autor)
 
 ## Overview
 
 ### O desafio
 
-Users should be able to:
+O usuário deve ter a possibilidade de:
 
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+- Ver este layout em qualquer device (desktop, notebook, tablet ou mobile);
+- Ver os estados e interagir com alguns elementos em tela;
 
 ### Screenshot
 
@@ -41,41 +38,26 @@ Users should be able to:
 
 ## Meu processo
 
-### Construído com:
+### Tecnologias
 
-- Semantic HTML5 markup
+- HTML5;
+- SASS/SCSS;
 
 ### O que eu aprendi
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+<h1>exemplo</h1>
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+### Próximas etapas
 
-### Continued development
+Próximas etapas
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+### Recursos úteis
 
-### Useful resources
+- [Example resource 1](https://www.example.com) - Este conteúdo me ajudou para relembrar e compreender melhor como funciona o display grid.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-
-## Author
+## Autor
 
 
 - Frontend Mentor: [@christianhsmartins](https://www.frontendmentor.io/profile/christianhsmartins)
