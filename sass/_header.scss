@@ -1,0 +1,14 @@
+header {
+    position: fixed;
+    width: 100%;
+    max-width: 100vw;
+    padding-top: 2.4rem;
+    .container {
+        width: 100%;
+        max-width: 111rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+}

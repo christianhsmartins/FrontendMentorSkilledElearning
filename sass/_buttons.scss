@@ -1,0 +1,35 @@
+button {
+    padding: 1.4rem 3.2rem;
+    border: none;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-align: center;
+    color: $white;
+    transition: 0.3s ease;
+
+    &.btn-primary {
+        background: $secondary-dark;
+
+        &:hover {
+            background: $secondary-light;
+        }
+    }
+
+    &.btn-secondary {
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+
+        &:hover {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        }
+    }
+
+    &.btn-tertiary {
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+
+        &:hover {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        }
+    }
+}
