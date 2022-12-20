@@ -54,7 +54,7 @@
 }
 
 .courses {
-    padding: 4.9rem 0 14rem 0;
+    padding: 4.9rem 0 11.4rem;
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
     .container {
         display: grid;
@@ -68,12 +68,14 @@
         }
     }
     @include responsive(768px) {
+        padding: 4.9rem 0 8.6rem;
         .container {
             grid-template: repeat(3, auto) / repeat(2, auto);
             gap: 6.2rem 1.1rem;
         }
     }
     @include responsive(660px) {
+        padding: 4.9rem 0 8rem;
         .container {
             display: flex;
             flex-direction: column;

@@ -22,6 +22,12 @@
         display: block;
         margin-top: 2.4rem;
     }
+    &.featured {
+        h3 {
+            color: $white;
+        }
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
     @include responsive(1060px) {
         max-width: 100%;
         padding: 5.6rem 2rem 3.2rem 3.2rem;
@@ -34,10 +40,17 @@
             line-height: 2.6rem;
             margin-top: 1.6rem;
         }
-    }
-    @include responsive(768px) {
+        &.featured {
+            h3 {
+                font-size: 2.4rem;
+                line-height: 3.2rem;
+            }
+        }
     }
     @include responsive(660px) {
         padding: 5.6rem 2.8rem 3.2rem;
+        &.featured {
+            padding: 2.8rem;
+        }
     }
 }
