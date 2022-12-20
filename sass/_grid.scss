@@ -1,6 +1,7 @@
 .container {
     width: 100%;
     max-width: 110.9rem;
+    height: 100%;
     margin: 0 auto;
     @include responsive(1200px) {
         padding: 0 4rem;

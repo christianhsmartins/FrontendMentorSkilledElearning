@@ -22,12 +22,16 @@ h4 {
     line-height: 3.0rem;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: $secondary-dark;
 }
 
 p {
     color: $gray;
+
     &.medium {
         font-weight: 500;
         font-size: 1.8rem;
@@ -39,4 +43,12 @@ p {
         font-size: 1.6rem;
         line-height: 2.8rem;
     }
+}
+
+a {
+    display: block;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #F74780;
 }
