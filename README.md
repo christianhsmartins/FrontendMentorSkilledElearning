@@ -45,13 +45,25 @@ O usuário deve ter a possibilidade de:
 
 ### O que eu aprendi
 
-```html
-<h1>exemplo</h1>
+```css
+  display: grid;
 ```
+
+1. Neste projeto aprendi a usar melhor o GRID, apesar de, descobrir depois que poderia ter feito tranquilo a área dos cards com display flex;
+
+```css
+  position:;
+```
+2. Aprendi também a melhorar a parte responsiva e tomar os devidos cuidados com o position: absolute;
+
+```css
+  .container {}
+```
+3. Outra coisa que aprendi foi a otimizar a organização do meu código para não ficar repetindo propriedade e padronizar, de forma mais rápida, os componentes e as estruturas de grid;
 
 ### Próximas etapas
 
-Próximas etapas
+Definitivamente melhorar a parte do responsivo e tomar mais cuidado com algumas decisões que eu tomo na hora de estruturar o layout.
 
 ### Recursos úteis
 
