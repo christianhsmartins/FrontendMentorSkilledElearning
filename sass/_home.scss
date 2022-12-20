@@ -58,19 +58,19 @@
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
     .container {
         display: grid;
-        grid-template: repeat(2, auto) / repeat(3, auto);
+        grid-template: repeat(2, auto) / repeat(3, 1fr);
         gap: 5.6rem 3rem;
     }
     @include responsive (1060px) {
         .container {
-            grid-template: repeat(3, auto) / repeat(2, auto);
+            grid-template: repeat(3, auto) / repeat(2, 1fr);
             gap: 6.2rem 3rem;
         }
     }
     @include responsive(768px) {
         padding: 4.9rem 0 8.6rem;
         .container {
-            grid-template: repeat(3, auto) / repeat(2, auto);
+            grid-template: repeat(3, auto) / repeat(2, 1fr);
             gap: 6.2rem 1.1rem;
         }
     }
